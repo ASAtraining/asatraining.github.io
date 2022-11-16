@@ -325,6 +325,66 @@ body{
   font-size: 1em;
 }
 
+/* testimonials */
+
+
+.testimonials .content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.title p{
+  font-size: .5em;
+  width: 80%;
+}
+
+.testimonials .content .cards{
+  background: #3a6cf4;
+  width: 260px;
+  height: 200px;
+  margin: 10px;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+}
+
+.testimonials .content .cards .service-icons{
+  color: #ffff;
+  font-size: 1.5em;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.testimonials .content .cards:hover .service-icons{
+  transform: translateY(-10px);
+}
+
+.testimonials .content .cards .info{
+  color: #ffff;
+  text-align: center;
+  font-size: .58em;
+}
+
+.testimonials .content .cards .info h3{
+  color: #ffff;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+
+
+/*      */
+
+
+
+
 .skills{
   background: #000016;
 }
